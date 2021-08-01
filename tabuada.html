@@ -1,0 +1,28 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pula_linha() {
+
+        document.write("<br>");
+        document.write("<br>");
+
+ 	}
+
+ 	    function mostra(frase) {
+
+        document.write(frase);
+        pula_linha();
+
+ 	}
+
+    var numero = parseInt(prompt("Escolha um numero para tabuada"));
+    
+
+
+    for(var multiplicador = 1;multiplicador <= 10;multiplicador++){
+        mostra(numero *  multiplicador);
+    }
+
+
+ </script>
